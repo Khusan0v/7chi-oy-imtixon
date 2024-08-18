@@ -1,0 +1,74 @@
+
+.center{
+    background-color: #0D2613;
+    .header{
+        padding: 19px;
+        max-width: 1290px;
+        margin: auto;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        .phoneWrapper{
+            display: flex;
+            gap: 32px;
+          text-align: center;
+          align-items: center;
+          .phone{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            gap: 17px;
+            p{
+                font-size: 14px;
+                font-family: "Inter", sans-serif;
+                color: white;
+            }
+          }
+
+        }
+        .login{
+            display: flex;
+            padding-block: 6.5px;
+            text-align: center;
+            align-items: center;
+            
+            p{
+                font-family: "Inter", sans-serif;
+                color: white;
+                font-size: 14px;
+                font-weight: 400;
+                padding-right: 25px;
+                border-right: #14FF00 2px solid;
+            }
+            a{
+                padding-left: 25px;
+                font-family: "Inter", sans-serif;
+                color: white;
+                font-size: 14px;
+                font-weight: 400;
+                text-decoration: none;
+            }
+        }
+        .wrapper{
+            display: flex;
+            gap: 44px;
+            text-align: center;
+            align-items: center;
+            .option{
+                display: flex;
+                gap: 11px;
+                color: white;
+                text-align: center;
+                align-items: center;
+            }
+            .location{
+                display: flex;
+                gap: 8px;
+                text-align: center;
+                align-items: center;
+                color: white; 
+            }
+        }
+    }
+}

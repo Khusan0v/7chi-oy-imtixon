@@ -1,0 +1,47 @@
+.bcColor {
+  background-color: #fff;
+  width: 100%;
+}
+
+header {
+  max-width: 1290px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 39px 41.5px;
+}
+header ul {
+  display: flex;
+  gap: 50px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0D2612;
+  line-height: 19.36px;
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  gap: 42px;
+  text-align: center;
+}
+.card a {
+  color: #0D2612;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.headerContent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}/*# sourceMappingURL=header.module.css.map */

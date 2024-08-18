@@ -1,0 +1,42 @@
+.body_wrapper {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.aside {
+  min-width: 300px;
+}
+
+.main_p {
+  margin-top: 60px;
+  width: 1190px;
+}
+
+.filter {
+  margin-top: 39px;
+  width: 100%;
+  background-color: #D5F8CF;
+}
+.filter h4 {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0BA42D;
+}
+.filter select {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  background-color: #D5F8CF;
+  color: #0BA42D;
+  border: none;
+}/*# sourceMappingURL=product.module.css.map */

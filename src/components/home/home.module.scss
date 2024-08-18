@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.home{
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 200px;
+}
+.heroImg{
+    width: 100%;
+    height: 629px;
+    background-image: url(/public/Rectangle\ 167.png);
+    .text{
+        padding-top: 210px;
+        margin-left: 138px;
+        p{
+            font-family: "Hammersmith One", sans-serif;
+            color: white;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;
+        }
+        h1{
+            font-family: "Hammersmith One", sans-serif;
+            color: white;
+            font-weight: 400;
+            font-size: 46px;
+            line-height: 57.5px;
+        }
+    }
+}

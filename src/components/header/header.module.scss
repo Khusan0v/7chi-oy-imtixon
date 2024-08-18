@@ -1,0 +1,51 @@
+
+.bcColor{
+    background-color: #fff;
+    width: 100%;
+
+}
+header{
+    max-width: 1290px;
+    // background-color: #fff;
+    // border-bottom: #E9E7E7 2px solid;
+    margin: auto;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: space-between;
+     padding: 39px 41.5px;
+    //  margin-bottom: 99px;
+     ul{
+        display: flex;
+        gap: 50px;
+        li{
+            list-style: none;
+            a{
+                font-family: "Inter", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                color: #0D2612;
+                line-height: 19.36px;
+                text-decoration: none;
+            }
+        }
+       
+     }
+}
+.card{
+    display: flex;
+    gap: 42px;
+    text-align: center;
+   a{
+    color: #0D2612;
+    font-size: 18px;
+    font-weight: 700;
+   }
+}
+
+.headerContent{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}

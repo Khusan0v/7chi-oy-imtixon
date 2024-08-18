@@ -1,0 +1,114 @@
+.footer{
+    width: 100%;
+    height: 550px;
+    background-color: #0D2612;
+
+    .footerMain{
+        max-width: 1500px;
+        margin: auto;
+        padding-top: 77px;
+
+        .logoLink{
+            display: flex;
+            justify-content: space-between;
+
+            .first{
+                padding-left: 114px;
+                .top{
+                    margin-bottom: 157px;
+                    img{
+                        margin-bottom: 16px;
+                    }
+                    p{
+                      font-family: "Hammersmith One", sans-serif;
+                      font-weight: 400;
+                      font-size: 22px;
+                      line-height: 27.5px;
+                      color: #fff;
+
+                    }
+                }
+
+                .under{
+                    img{
+                    margin-right: 22px;
+
+                    }
+                }
+            }
+        }
+
+
+        .second{
+            display: flex;
+            padding-right: 50px;
+            .links{
+                margin-right: 125px;
+
+                h3{
+                  font-family: "Inter", sans-serif;
+                  margin-bottom: 29px;
+                  font-weight: 700;
+                  font-size: 24px;
+                  line-height: 29.05px;
+                  color: white;
+                }
+                ul{
+                    
+                    li{
+                        margin-bottom: 19px;
+                        list-style: none;
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 21.78px;
+                        color: white;
+
+
+
+                    }
+                  }
+            }
+        }
+
+        .third{
+
+            .footerBor{
+                max-width: 1400px;
+                border-bottom: 1px solid #fff;
+                margin: 0 auto;
+                margin-top: 64px;
+
+            }
+            .footerEnd{
+                padding: 33px 134px 10px 114px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: auto;
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 21.78px;
+                    color: #fff;
+                }
+                .bothf{
+                    display: flex;
+                    align-items: center;
+                    gap: 18px;
+                    p{
+                        font-family: "Inter", sans-serif;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 21.78px;
+                        color: #fff;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}

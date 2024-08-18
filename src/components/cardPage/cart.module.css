@@ -1,0 +1,13 @@
+.cardPage {
+  margin: 0 auto;
+  border: 1px solid;
+  margin-top: 400px;
+  margin-bottom: 400px;
+}
+
+.li {
+  width: 200px;
+}
+.li img {
+  width: 100px;
+}/*# sourceMappingURL=cart.module.css.map */

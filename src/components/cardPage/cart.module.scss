@@ -1,0 +1,135 @@
+.cardPage{
+    margin: auto;
+
+    // border: 1px solid;
+    width: 1290px;
+    // height: 100px;
+    margin-top: 300px;
+    margin-bottom: 400px;
+    padding: 0 50px;
+
+    .btn{
+        border: none;
+        background-color: #fff;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22.5px;
+    }
+
+    h1{
+        margin-top: 52px;
+        margin-bottom: 57px;
+        font-family: "Hammersmith One", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+
+    }
+    .empty{
+        margin-top: 100px;
+        margin-left: 370px;  
+        font-family: "Inter", sans-serif;
+        font-size: 50px;
+    }
+    
+}
+.cartBorder{
+
+    margin-bottom: 13px; 
+    border-bottom: 2px dashed #6A6969 ;
+    width: 832px;
+
+    div{
+        h3{
+            margin-top: 100px;
+            color: blue;
+
+        }
+    }
+}
+
+.cartBorderr{
+
+    margin-bottom: 37px; 
+    border-bottom: 2px dashed #6A6969 ;
+    width: 2    32px;
+
+    div{
+        h3{
+            margin-top: 100px;
+            color: blue;
+
+        }
+    }
+}
+
+.li{
+    width: 800px;
+    // height: 200px;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        width: 155px;
+    }
+    .buttonAside{
+        background-color: #fff;
+        border: none;
+    }
+    
+}
+
+.main{
+    display: flex;
+    gap: 400px;
+}
+
+.king{
+    display: flex;
+    gap: 20px;
+}
+h2{
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+
+}
+
+.description{
+    border-left: 1px solid #E9E7E7 ;
+    padding-left: 31px;
+    
+    .proceed{
+        background-color: #0BA42D;
+        color: #fff;
+        padding: 16px 56px;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        border: none;
+        border-radius: 10px;
+        margin-top: 70px;
+        margin-bottom: 40px;
+
+
+
+    }
+}
+p{
+    margin-bottom: 20px;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+h5{
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.5px;
+
+}
+
